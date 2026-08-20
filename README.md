@@ -4,9 +4,9 @@
 
 ## 📌 Datos del equipo
 
-- **Equipo:** `<nombre-equipo>`
-- **Capítulo(s) asignado(s):** `<capítulo y tema>`
-- **Integrantes:** `<nombre1>`, `<nombre2>`, `<nombre3>`, `<nombre4>`
+- **Equipo:** `Loompy`
+- **Capítulo(s) asignado(s):** `<14: Simple Linear Regression - Grus>`
+- **Integrantes:** `<Castro, Mauricio Nicolás>`, `<Lopez Gutierrez, Daniel Benjamin>`, `<López, Tomas Agustin>`, `<Martínez, Agustín Francisco>`,`<Peralta Ruiz, Nadine Andrea>`
 
 ## 🎯 Objetivos de la clase
 
