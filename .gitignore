@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets pesados (subir a data/ solo si son livianos, sino .gitignore o link en README)
+*.csv
+!data/sample_*.csv
+
+# OS / editores
+.DS_Store
+.vscode/
