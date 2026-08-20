@@ -5,8 +5,8 @@
 ## 📌 Datos del equipo
 
 - **Equipo:** `Loompy`
-- **Capítulo(s) asignado(s):** `<14: Simple Linear Regression - Grus>`
-- **Integrantes:** `<Castro, Mauricio Nicolás>`, `<Lopez Gutierrez, Daniel Benjamin>`, `<López, Tomas Agustin>`, `<Martínez, Agustín Francisco>`,`<Peralta Ruiz, Nadine Andrea>`
+- **Capítulo(s) asignado(s):** `14: Simple Linear Regression - Grus`
+- **Integrantes:** `Castro, Mauricio Nicolás`, `Lopez Gutierrez, Daniel Benjamin`, `López, Tomas Agustin`, `Martínez, Agustín Francisco`,`Peralta Ruiz, Nadine Andrea`
 
 ## 🎯 Objetivos de la clase
 
