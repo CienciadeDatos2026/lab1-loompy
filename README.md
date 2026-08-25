@@ -6,16 +6,16 @@
 
 - **Equipo:** `Loompy`
 - **Capítulo(s) asignado(s):** `14: Simple Linear Regression - Grus`
-- **Integrantes:** `Castro, Mauricio Nicolás`, `Lopez Gutierrez, Daniel Benjamin`, `López, Tomas Agustin`, `Martínez, Agustín Francisco`,`Peralta Ruiz, Nadine Andrea`
+- **Integrantes:** `Castro, Mauricio Nicolás`, `Lopez Gutierrez, Daniel Benjamin`, `López, Tomas Agustin`, `Martínez, Agustín Francisco`, `Peralta Ruiz, Nadine Andrea`
 
 ## 🎯 Objetivos de la clase
 
 Comprender e implementar los fundamentos teóricos y prácticos de la **Regresión Lineal Simple** aplicados al análisis inmobiliario del conjunto de datos de Properati. Al finalizar la clase, se espera que el resto del curso pueda:
 
-- **El modelo de regresión lineal:** modelar la relación entre una variable independiente ($x$) y una dependiente ($y$) mediante $y = \alpha + \beta x + \epsilon$, interpretando el significado práctico de la pendiente ($\beta$) y la ordenada al origen ($\alpha$).
-- **El error de predicción y la suma de errores al cuadrado (RSS):** cuantificar los residuos ($y - \hat{y}$) y entender por qué se utiliza RSS como función de costo (evita la cancelación de signos y penaliza desvíos grandes).
-- **El método de mínimos cuadrados (OLS):** calcular de forma exacta y directa la recta óptima ($\alpha$ y $\beta$) a partir de las medias, varianzas y la covarianza entre las variables de la muestra.
-- **El coeficiente de determinación ($R^2$):** medir qué porcentaje de la varianza total es explicada por el modelo y usar esta métrica para comparar y seleccionar la mejor variable independiente.
+- **El modelo de regresión lineal:** modelar la relación entre una variable independiente (x) y una dependiente (y) mediante **y = α + βx + ε**, interpretando el significado práctico de la pendiente (β) y la ordenada al origen (α).
+- **El error de predicción y la suma de errores al cuadrado (RSS):** cuantificar los residuos (y − ŷ) y entender por qué se utiliza RSS como función de costo (evita la cancelación de signos y penaliza desvíos grandes).
+- **El método de mínimos cuadrados (OLS):** calcular de forma exacta y directa la recta óptima (α y β) a partir de las medias, varianzas y la covarianza entre las variables de la muestra.
+- **El coeficiente de determinación (R²):** medir qué porcentaje de la varianza total es explicada por el modelo y usar esta métrica para comparar y seleccionar la mejor variable independiente.
 - **Optimización mediante descenso del gradiente:** implementar un enfoque iterativo para encontrar la recta óptima y comprobar cómo llega al mismo resultado que mínimos cuadrados al escalar adecuadamente las variables.
 - **Estimación de máxima verosimilitud (MLE):** comprender el sustento probabilístico del modelo y por qué minimizar RSS equivale a maximizar la verosimilitud asumiendo errores con distribución normal.
 
@@ -72,7 +72,7 @@ Para este laboratorio no definimos una estrategia específica de ramas. Como las
 
 En la notebook `ejercicios_equipo.ipynb` proponemos aplicar los conceptos de regresión lineal simple al dataset de Properati mediante una serie de ejercicios guiados. Primero, deberán implementar las funciones para calcular la pendiente y la ordenada al origen a partir de la cantidad de habitaciones y el precio de las propiedades. Luego, utilizarán esos parámetros para estimar el precio de una propiedad de tres habitaciones.
 
-Como desafío final, les pedimos comparar dos modelos: uno que use la cantidad de habitaciones y otro que use la superficie total para predecir el precio. Para ello, deberán calcular los parámetros de ambos modelos, representar los datos junto con sus rectas de regresión y analizar cuál de las dos variables explica mejor la variación del precio. Como cierre, incluimos un cuestionario de opción múltiple para repasar y consolidar los principales conceptos de regresión lineal simple, como RSS, estimaciones, OLS, $R^2$ y MLE.
+Como desafío final, les pedimos comparar dos modelos: uno que use la cantidad de habitaciones y otro que use la superficie total para predecir el precio. Para ello, deberán calcular los parámetros de ambos modelos, representar los datos junto con sus rectas de regresión y analizar cuál de las dos variables explica mejor la variación del precio. Como cierre, incluimos un cuestionario de opción múltiple para repasar y consolidar los principales conceptos de regresión lineal simple, como RSS, estimaciones, OLS, R² y MLE.
 
 ## 🙌 Créditos
 
